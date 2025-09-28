@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshitha Sai Bhargavi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <h1 class="logo">Harshitha</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Harshitha Sai Bhargavi</span></h2>
+      <p>A 3rd-year Engineering student at GITAM University, passionate about software development, AI, and robotics.</p>
+    </div>
+    <div class="hero-img">
+      <img src="profile.jpg" alt="Harshitha Profile Photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m passionate about building smart assistants, chatbots, and exploring advanced robotics. Skilled in Python, Flask, NLP, and problem-solving. I enjoy learning and creating impactful projects.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Health Chatbot</h3>
+      <p>A multilingual chatbot that helps users find symptoms and diseases using NLP. <a href="https://github.com/Bhargavi149/health-chatbot" target="_blank">View Project</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Smart Assistant</h3>
+      <p>A voice + text assistant built with Flask and Twilio integration. <a href="#">View Project</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>This personal portfolio website built using HTML & CSS. <a href="#">View Project</a></p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:harshithasaibhargaviprathipati@gmail.com">harshithasaibhargaviprathipati@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/harshitha-sai-bhargavi-prathipati-551260293/" target="_blank">linkedin.com/in/harshitha-sai-bhargavi-prathipati</a></p>
+    <p>GitHub: <a href="https://github.com/Bhargavi149" target="_blank">github.com/Bhargavi149</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Harshitha Sai Bhargavi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
